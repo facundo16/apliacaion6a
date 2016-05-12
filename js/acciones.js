@@ -5,7 +5,7 @@ $(document) .ready(function (e){
    $('#btnvibrar').on('tap', function(){
 	   navigator.notification.vibrate(2000);
    });
-    $('#beep').tap('tap', function(){
+    $('#beep').tap(function(){
 	   navigator.notification.beep(1);
 	    });
    });
